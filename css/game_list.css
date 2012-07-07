@@ -1,0 +1,15 @@
+@charset "utf-8";
+fieldset {
+  margin-bottom: 10px;
+}
+legend { /* fieldset のタイトル */
+  font-weight: bold;
+}
+.game-list { /* ゲーム一覧 (中身は room_manager.php) */
+  margin: 20px 20px 30px;
+  line-height: 135%;
+  font-weight: bold;
+}
+.game-list div {
+  text-align: right;
+}

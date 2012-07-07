@@ -1,0 +1,6 @@
+@charset "utf-8";
+@import url(info/info.css);
+.ability {
+  text-align: left;
+  white-space: normal;
+}

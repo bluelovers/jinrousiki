@@ -1,0 +1,15 @@
+@charset "utf-8";
+ul {
+  margin-left: -32px;
+  *margin-left: 8px; /* IE6 対応 */
+  list-style-type: none;
+  line-height: 150%;
+  font-size: 95%;
+}
+.menu {
+  padding: 5px 1px;
+  background-color: #CCFFCC;
+  border: 1px solid #CC3300;
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+@import url(game.css);
+.login { /* 村名とユーザログインフォームの table */
+  width: 100%;
+  border: 0;
+  border-collapse: collapse;
+}
+.login-link { /* 更新 & 戻る  */
+  text-align: right;
+}
+.login-link span { /* 住民登録 */
+  font-weight: bold;
+}
+.login form {
+  margin-bottom: 0;
+}
+.login label { /* ユーザ名 & パスワード */
+  margin-right: 5px;
+  font-weight: bold;
+}
+.login-password { /* ログインパスワード */
+  ime-mode: disabled;
+}

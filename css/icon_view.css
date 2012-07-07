@@ -1,0 +1,30 @@
+@charset "utf-8";
+@import url(body_bg.css);
+@import url(icon.css);
+body {
+  background-color: #FFFFFF;
+  background-image: url("../img/bg/icon_view.png");
+}
+.title {
+  border: 0;
+}
+.link {
+  margin: 5px;
+}
+fieldset {
+  background-color: transparent;
+  border: 1px solid #000000;
+}
+legend {
+  margin: 0px 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+table {
+  background-color: transparent;
+  border: 0;
+}
+table td {
+  vertical-align: top;
+  font-size: 15px;
+}

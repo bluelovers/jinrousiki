@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import url(body_bg.css);
+body {
+  background-color: #FFFFFF;
+  background-image: url("../img/icon_upload_bg.jpg");
+}
+table {
+  margin: 10px 0px 20px 0px;
+}
+caption, label, #download .caption {
+  font-weight: bold;
+}
+caption {
+  margin-left: 1em;
+  color: #CC0000;
+  font-size: 120%;
+  text-align: left;
+}
+td {
+  padding: 5px;
+}
+#upload {
+  border: 1px dotted #303030;
+}
+#download {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+#download td {
+  border: 1px solid;
+  vertical-align: middle;
+}
+#download .link, #download .type, #download .size, #download .name, #download .date {
+  white-space: nowrap;
+}
+#download .caption, #download .type, #download .name {
+  text-align: center;
+}
+#download .size {
+  text-align: right;
+}
+#download .explain {
+  vertical-align: top;
+}
+span {
+  color: #FF0000;
+}

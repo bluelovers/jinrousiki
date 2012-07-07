@@ -1,0 +1,86 @@
+@charset "utf-8";
+@import url(anchor.css);
+@import url(body_bg.css);
+body {
+  background-color: #FFFAF0;
+  background-image: url("../img/bg/old_log.png");
+}
+div {
+  text-align: center;
+}
+table {
+  filter: alpha(opacity=80, enabled=80);
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+  margin-left:  auto;
+  margin-right: auto;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+caption {
+  margin-bottom: 5px;
+  text-align: right;
+}
+th {
+  margin: 0px;
+  padding : 3px 3px 3px 6px;
+  border: 1px solid #000000;
+  background-color: #526CD6;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+tbody tr, tbody td {
+  text-align: right;
+}
+.main {
+  background-color: #CCCCCC;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+}
+td {
+  padding: 3px 3px 3px 6px;
+  background-color: #F2EACE;
+  color: #333333;
+  vertical-align: middle;
+}
+.title {
+  border-top:    1px solid  #000000;
+  border-right:  1px solid  #000000;
+  border-left:   1px solid  #000000;
+  border-bottom: 1px dotted #CCCCCC;
+}
+.upper {
+  border-right:  1px dotted #CCCCCC;
+  border-bottom: 1px dotted #CCCCCC;
+}
+.side {
+  border-right:  1px solid  #000000;
+  border-bottom: 1px dotted #CCCCCC;
+}
+.middle {
+  border-bottom: 1px dotted #CCCCCC;
+}
+.lower td {
+  border-right:  1px solid  #000000;
+  border-left:   1px solid  #000000;
+  border-bottom: 1px solid  #000000;
+  vertical-align: middle;
+}
+.lower img {
+  vertical-align: middle;
+}
+.time {
+  border-right:  1px solid  #000000;
+}
+.number {
+  border: 1px solid  #000000;
+}
+.comment {
+  font-size: 75%;
+}
+.icon {
+  text-align: left;
+}
+.vanish a:link, .vanish a:visited {
+  color: #909090;
+}

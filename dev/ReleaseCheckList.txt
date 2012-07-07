@@ -1,0 +1,30 @@
+リリースパッケージ作成チェックリスト for Ver. 1.3.0
+
+全体
+・paparazzi.php、paparazzi/、src/を削除
+・img/dummy_boy.jpg, img/grave.jpgを削除
+
+include/setting.php
+・paparazzi.phpインクルード文を削除
+・サーバコメントを修正
+
+inclulde/message_class.php
+・東方色の強いメッセージを削除し、元のメッセージに戻す
+
+admin/setup.php
+・DummyBoyIcon->pathをdummy_boy.jpg → dummy_boy.gifに変更
+
+inclulde/config.php
+・IconConfig->dead を dummy_boy.jpg → dummy_boy.gifに変更
+
+inclulde/version.php
+・バージョン情報を編集
+
+info/top.php
+・Information文面修正
+
+index.php
+・paparazzi.phpへのリンクコメントを削除
+・src/へのリンク削除
+・その他外部リンクを削除
+・配布ホームページのリンクをSourceforgeに

@@ -1,0 +1,41 @@
+@charset "utf-8";
+@import url(body_bg.css);
+body {
+  background-color: #FFFFFF;
+  background-image: url("../img/icon_upload_bg.jpg");
+}
+.title {
+  margin: 1px 0 1em 0;
+  border: 0;
+}
+.link {
+  text-align: right;
+}
+.caution {
+  color: #FF0000;
+  text-align: right;
+  font-size: 80%;
+}
+legend {
+  margin-top: 5px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+label {
+  font-weight: bold;
+}
+input {
+  margin-left:  5px;
+  margin-right: 5px;
+  background-color: #F0F8FF;
+  border: 1px solid #000000;
+}
+table.color {
+  width: 600px;
+  line-height: 13px;
+  font-size: 11px;
+}
+table.color label {
+  font-weight: normal;
+}

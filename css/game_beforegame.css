@@ -1,0 +1,11 @@
+@charset "utf-8";
+@import url(anchor.css);
+body, .real-time input {
+  background-color: #FFF5EE;
+}
+body, .real-time input, .vote-page td {
+  color: #000000;
+}
+.vote-page, .vote-page td {
+  border-color: #000000;
+}

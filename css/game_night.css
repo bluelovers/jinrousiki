@@ -1,0 +1,16 @@
+@charset "utf-8";
+body, .real-time input {
+  background-color: #000030;
+}
+body, .real-time input, .vote-page td {
+  color: #FFFAFA;
+}
+.vote-page, .vote-page td, .vote-list, .vote-list td {
+  border-color: #FFFAFA;
+}
+a:link, a:visited {
+  color: #8080FF;
+}
+a:active, a:hover {
+  color: #FF0000;
+}

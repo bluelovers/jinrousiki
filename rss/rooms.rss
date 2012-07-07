@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:lang="ja" xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<channel about="http://localhost/jinrou/rss/rooms.rss">
+<title>汝は人狼なりや？</title>
+<link>http://localhost/jinrou/</link>
+<description></description>
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="game_view.php?room_no=456"/><rdf:li rdf:resource="game_view.php?room_no=455"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="game_view.php?room_no=456">
+<title>RSSテスト6村</title>
+<link>game_view.php?room_no=456</link>
+<description><div>
+<a href="game_view.php?room_no=456">
+<img class="option" src="http://localhost/jinrou/img/room_option/waiting.gif"/><span class='room_no'>[456番地]</span><h2>RSSテスト6村</h2>
+〜 もうやだ 〜 <img class="option" src="http://localhost/jinrou/img/room_option/real_time.gif" alt="リアルタイム制　昼： 5 分　夜： 3 分" title="リアルタイム制　昼： 5 分　夜： 3 分"/>[5：3]<img class="option" src="http://localhost/jinrou/img/room_option/dummy_boy.gif" alt="初日の夜は身代わり君" title="初日の夜は身代わり君"/><img class="option" src="http://localhost/jinrou/img/room_option/auto_open_cast.gif" alt="自動で霊界の配役を公開する" title="自動で霊界の配役を公開する"/><img class="option" src="http://localhost/jinrou/img/room_option/poison.gif" alt="20人以上で埋毒者登場" title="20人以上で埋毒者登場"/><img class="option" src="http://localhost/jinrou/img/room_option/decide.gif" alt="16人以上で決定者登場" title="16人以上で決定者登場"/><img class="option" src="http://localhost/jinrou/img/room_option/authority.gif" alt="16人以上で権力者登場" title="16人以上で権力者登場"/>(最大22人)
+</a>
+</div>
+</description>
+</item><item rdf:about="game_view.php?room_no=455">
+<title>RSSテスト5村</title>
+<link>game_view.php?room_no=455</link>
+<description><div>
+<a href="game_view.php?room_no=455">
+<img class="option" src="http://localhost/jinrou/img/room_option/waiting.gif"/><span class='room_no'>[455番地]</span><h2>RSSテスト5村</h2>
+〜 むらむら 〜 <img class="option" src="http://localhost/jinrou/img/room_option/real_time.gif" alt="リアルタイム制　昼： 5 分　夜： 3 分" title="リアルタイム制　昼： 5 分　夜： 3 分"/>[5：3]<img class="option" src="http://localhost/jinrou/img/room_option/dummy_boy.gif" alt="初日の夜は身代わり君" title="初日の夜は身代わり君"/><img class="option" src="http://localhost/jinrou/img/room_option/auto_open_cast.gif" alt="自動で霊界の配役を公開する" title="自動で霊界の配役を公開する"/><img class="option" src="http://localhost/jinrou/img/room_option/poison.gif" alt="20人以上で埋毒者登場" title="20人以上で埋毒者登場"/><img class="option" src="http://localhost/jinrou/img/room_option/decide.gif" alt="16人以上で決定者登場" title="16人以上で決定者登場"/><img class="option" src="http://localhost/jinrou/img/room_option/authority.gif" alt="16人以上で権力者登場" title="16人以上で権力者登場"/>(最大22人)
+</a>
+</div>
+</description>
+</item>
+</rdf:RDF>

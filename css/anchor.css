@@ -1,0 +1,7 @@
+@charset "utf-8";
+a:link, a:visited {
+  color: #0000FF;
+}
+a:active, a:hover {
+  color: #FF0000;
+}
